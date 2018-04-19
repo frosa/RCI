@@ -7,3 +7,8 @@ Asignatura de Redes
 ## Objetivo del proyecto
 
 Se trata de diseñar y poner en funcionamiento un prototipo de red industrial basada en ESP8266 y microphyton.
+
+
+Texto añadido por Carlos
+
+Prueba edición Airam
