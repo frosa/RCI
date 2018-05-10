@@ -1,14 +1,12 @@
 # Redes de Comunicación Industrial
 
-Asignatura de Redes
+Proyecto de comunicaciones entre nodos basados en el circuito integrado ESP8266.
 
-[Lo que quiero que se vea repositorio de Fernando Rosa](https://github.com/frosa)
+[Administrador del proyecto](https://github.com/frosa)
 
-## Objetivo del proyecto
+## Objetivos del proyecto
 
-Se trata de diseñar y poner en funcionamiento un prototipo de red industrial basada en ESP8266 y microphyton.
+Se trata de diseñar y poner en funcionamiento un prototipo de red industrial basada en ESP8266 y microphyton. 
+La red industrial constará con un protocolo propio que identificará cada nodo de manera inequívoca. 
 
 
-Texto añadido por Carlos
-
-Prueba edición Airam
