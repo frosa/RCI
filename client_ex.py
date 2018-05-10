@@ -1,3 +1,6 @@
+############## Autor del código: Micropython ##########
+
+
 try:
     import usocket as socket
 except:
