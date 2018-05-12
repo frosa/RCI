@@ -1,0 +1,7 @@
+# Documentación utilizada para el desarrollo del proyecto:
+
+ - Datasheet NodeMCU V3
+ [ESP8266](https://nodemcu.readthedocs.io/en/master/)
+ - Sensor de temperatura y humedad: 
+ [DHT22](https://akizukidenshi.com/download/ds/aosong/AM2302.pdf)
+ - 
