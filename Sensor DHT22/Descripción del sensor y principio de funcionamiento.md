@@ -5,7 +5,7 @@ El sensor utilizado en el proyecto es el DTH22, se trata de un sensor de tempera
 En el siguiente enlace se dipone una descripción más detalla de este sensor:
 <http://www.adafruit.com/products/385>
 
- - Características eléctricas
+ - ***Características eléctricas***
  
  EL DTH22 dispone de tres pines físicos de conexión distribuidos tal y como se describe en la siguiente [imagen](https://hackster.imgix.net/uploads/attachments/267054/dht22-pinout_2P1AgF3wPs.png?auto=compress%2Cformat&w=680&h=510&fit=max)
  
@@ -17,13 +17,25 @@ En el siguiente enlace se dipone una descripción más detalla de este sensor:
  Potencia máxima de consumo | 0,5 mA usando 5V como alimentación
  Muestreo | 2s
  
- - Rendimiento sensor
+ - ***Rendimiento sensor***
  
  **Temperatura**
  
  | Parámetro | Condición | Min | Typ | Máx | Unidades |
  |----------|----------|---------|----------|-----------|----------|
  | Resolución |  |  | 0,1 |  | ºC |
+ | Resolución |  |  | 16 |  | bit |
+ | Precisión |  |  | +-0,5 | +-1 | ºC |
+ | Rango |  | -40 |  | 80 | ºC |
+ 
+ **Humedad**
+ 
+ | Parámetro | Condición | Min | Typ | Máx | Unidades |
+ |----------|----------|---------|----------|-----------|----------|
+ | Resolución |  |  | 0,1 |  | %RH |
+ | Precisión | 25ºC |  | +-2 |  | %RH |
+ | Rango |  | 0 |  | 99,9 | %RH |
+ 
  
 
 ## Principio de funcionamiento y acondicionamiento de señal
