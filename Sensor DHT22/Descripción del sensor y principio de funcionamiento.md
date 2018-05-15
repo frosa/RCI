@@ -21,6 +21,7 @@ En el siguiente enlace se dipone una descripción más detalla de este sensor:
  **Temperatura**
  
  | Parámetro | Condición | Min | Typ | Máx | Unidades |
+ |----------|----------|---------|----------|-----------|----------|
  | Resolución |  |  | 0,1 |  | ºC |
  
 
