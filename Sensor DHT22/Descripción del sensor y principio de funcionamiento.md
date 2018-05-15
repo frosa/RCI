@@ -11,7 +11,8 @@ En el siguiente enlace se dipone una descripción más detalla de este sensor:
  
  Las necesidades eléctricas del sensor son:
  
- |------|------|
+ | Parámetro | Unidades |
+ |--------------------|--------------------|
  Voltaje | 3,3-5,5V
  Potencia máxima de consumo | 0,5 mA usando 5V como alimentación
  Muestreo | 2s
