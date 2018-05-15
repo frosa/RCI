@@ -40,4 +40,10 @@ En el siguiente enlace se dipone una descripción más detalla de este sensor:
 
 ## Principio de funcionamiento y acondicionamiento de señal
 
+El DHT22 es un sensor del tipo *1-wire device*. Teniendo en cuenta esta condición, el acondicionamiento de señal es mínimo. No obstante, el fabricante recomienda incluir interporner una resistencia pull-up entre el pin de comunicaciones del sensor y la alimenctación Vcc. De esta manera aseguramos un valor alto en la entrada del microprocesador en el caso de que el sensor esté en modo IDLE.
+
+El sensor entrega los valores de humedad y temperatura en binario por lo que el módulo no requiere incluir un conversor analógico digital para comprender los valores. Además, la librería DHT y MACHINE contienen funciones directas que permiten leer y convertir los valores directamente en humedad relativa y grados celsius.
+
 ### Uso final en el proyecto
+
+En el proyecto este sensor se conecta...
