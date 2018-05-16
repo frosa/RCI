@@ -1,6 +1,6 @@
 ## Sensor utilizado y características básicas
 
-El sensor utilizado en el proyecto es el DTH22, se trata de un sensor de temperatura y humedad que dispone de librería específica para su control con MicroPhyton.
+El sensor utilizado en el proyecto es el DTH22 (actualmente se comercializa bajo el nombre de AM2302), se trata de un sensor de temperatura y humedad que dispone de librería específica para su control con MicroPhyton.
 
 En el siguiente enlace se dipone una descripción más detalla de este sensor:
 <http://www.adafruit.com/products/385>
@@ -46,4 +46,17 @@ El sensor entrega los valores de humedad y temperatura en binario por lo que el 
 
 ### Uso final en el proyecto
 
-En el proyecto este sensor se conecta...
+El propósito de este sensor en el proyecto es obtener la temperatura y humedad en cada nodo.
+El rango de de temperatura y humedad a medir se limita a la capacidad del sensor por lo que se tomarán todas las posibilidades.
+EL sensor se conecta con el módulo con ayuda de cables y una pequeña placa de prototipo de la siguiente manera:
+
+| Pin del sensor | Conexión |
+ |----------|----------|
+ | Pin 1 | 5V |
+ | Pin 2 | Pin 4 del módulo de comunicación |
+ | Pin 3 | No conectado |
+ | Pin 4 | GND |
+ 
+ Hay que tener en cuenta que el fabricante recomienda el uso de una resistencia de pull-up. En este caso se hará uso de ella tal y como se plantea en el proyecto.
+ 
+El código para el control y la obtención de los datos se incorpora en esta misma carpeta. Se tendrá en cuenta el tiempo de muestreo entre una medida y otra que será de 2 segundos.
