@@ -9,7 +9,8 @@ import time # Incluimos la función time para establecer los dos segundos de ref
 sensor = dht.DHT22(machine.Pin(4)) # De esta manera indicamos que el sensor está conectado al pin 4 del módulo.
 LED = Pin(12, Pin.OUT) # Configuramos el pin 12 (podemos usar cualquier pin libre entre  0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16) como pin controlable por la variable LED donde se conecta el LED.
 LED.off() # Iniciamos en low la salida del pin correspondiente al LED
-# Dentro del Loop Main y cada vez que se necesite adquirir los valores de humedad y temperatura se deben de usar las siguientes instrucciones
+# Dentro del Loop Main y cada vez que se necesite adquirir los valores de humedad y temperatura se deben de usar las siguientes instrucciones:
+# sensor.temperature() sensor.humidity() y sensor.measure()
 
 # En este caso, se incluye un ejemplo de loop (bucle for) donde se toman los datos de temperatura y humedad 10 veces y se muestra a través de print.
 
